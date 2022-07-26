@@ -29,4 +29,4 @@ There are two ways to use the source code. The desktop version (full use of feat
    
     b. Download the .ipynb file in the source code, and upload it to the workspace in the link.
 
-**Note**: Sometimes the dictionary may not include a word or the class with which the definition is in may be different. It's also possible that the word inputted is not a word at all (for example, the number 0). Therefore, when running the code with that type of word, it may output an error called `'NoneType' object has no attribute 'text'`. If this error pops up, check the wrod you inputted into the function and change it.
+**Note**: Sometimes the dictionary may not include a word or the class with which the definition is in may be different. It's also possible that the word inputted is not a word at all (for example, the number 0). Therefore, when running the code with that type of word, it may output an error called `'NoneType' object has no attribute 'text'`. If this error pops up, check the wrod you inputted into the function and change it. However, this happens rarely.
