@@ -1,7 +1,10 @@
-# Python-Multiple-Input-Dictionary
+# Introduction
+
+One day, I was preparing for the SAT, specifically the vocabulary. I wanted to memorize several hundred words (500 to be exact). However, a majority of the words I don’t know the meanings of, not even the roots of the words. But, when I tried to find the definitions, I had to look for the menings of the words one by one. To look for the meaning of words a hundred times by searching up the words a hundred times is very tedious. The general process is that I have to search up a word, click a link to a website, copy the definition and input it back to excel. Then I have to repeat the process all over again. If I can automate it, I can do it for as many as words as possible So, I had an idea. Why not put all the words in excel, input all those words into a python program, and the program will output the definitions of those words all at once? With this in mind, I created a function that takes a list of words, extracts the definitions, and puts all the definitions back into excel (Explained in more depth below). I encourage you to use this program or you can modify it as well.
+
+# Overview - A Python Multiple Input Dictionary
 A basic Python Dictionary in JupyterLab that can take multiple words and output the definitions of those words at once.
 
-### Overview
 The dictionary was created using python pandas, the BeautifulSoup library, and the website: www.dictionary.com. The code webscrapes a modified url using the word parameter of the function `ggl_search()`. From html of the url, the function extracts the first definition typed in the website and outputs it as a string. 
 
 The dictionary can also output multiple single-definitions of several words at once using lists. The words can come from a csv file (like in this repository) or they can come from a simple python list. 
